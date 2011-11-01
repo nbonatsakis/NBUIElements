@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NBSwipeIndicatorView.h"
+
 
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) IBOutlet NBSwipeIndicatorView* si;
 @end

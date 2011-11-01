@@ -20,6 +20,7 @@
 		72C0B809142A3EB400DCA056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0B7E9142A3EB300DCA056 /* Foundation.framework */; };
 		72C0B811142A3EB400DCA056 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C0B80F142A3EB400DCA056 /* InfoPlist.strings */; };
 		72C0B814142A3EB400DCA056 /* NBUIElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C0B813142A3EB400DCA056 /* NBUIElementsTests.m */; };
+		72D5155E14601D1A005B1383 /* NBSwipeIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D5155D14601D1A005B1383 /* NBSwipeIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,22 +37,24 @@
 		72C0B7E3142A3EB300DCA056 /* NBUIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBUIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C0B7E7142A3EB300DCA056 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72C0B7E9142A3EB300DCA056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		72C0B7ED142A3EB300DCA056 /* NBUIElements-Info.plist */ = {isa = PBXFileReference; path = "NBUIElements-Info.plist"; sourceTree = "<group>"; };
+		72C0B7ED142A3EB300DCA056 /* NBUIElements-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBUIElements-Info.plist"; sourceTree = "<group>"; };
 		72C0B7EF142A3EB300DCA056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72C0B7F1142A3EB300DCA056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		72C0B7F3142A3EB300DCA056 /* NBUIElements-Prefix.pch */ = {isa = PBXFileReference; path = "NBUIElements-Prefix.pch"; sourceTree = "<group>"; };
-		72C0B7F4142A3EB300DCA056 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		72C0B7F3142A3EB300DCA056 /* NBUIElements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NBUIElements-Prefix.pch"; sourceTree = "<group>"; };
+		72C0B7F4142A3EB300DCA056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72C0B7F5142A3EB300DCA056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		72C0B7F8142A3EB300DCA056 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		72C0B7FB142A3EB300DCA056 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		72C0B7FD142A3EB300DCA056 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		72C0B7FD142A3EB300DCA056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		72C0B7FE142A3EB300DCA056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		72C0B805142A3EB400DCA056 /* NBUIElementsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBUIElementsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C0B806142A3EB400DCA056 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		72C0B80E142A3EB400DCA056 /* NBUIElementsTests-Info.plist */ = {isa = PBXFileReference; path = "NBUIElementsTests-Info.plist"; sourceTree = "<group>"; };
+		72C0B80E142A3EB400DCA056 /* NBUIElementsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBUIElementsTests-Info.plist"; sourceTree = "<group>"; };
 		72C0B810142A3EB400DCA056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72C0B812142A3EB400DCA056 /* NBUIElementsTests.h */ = {isa = PBXFileReference; path = NBUIElementsTests.h; sourceTree = "<group>"; };
+		72C0B812142A3EB400DCA056 /* NBUIElementsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIElementsTests.h; sourceTree = "<group>"; };
 		72C0B813142A3EB400DCA056 /* NBUIElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUIElementsTests.m; sourceTree = "<group>"; };
+		72D5155C14601D1A005B1383 /* NBSwipeIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSwipeIndicatorView.h; sourceTree = "<group>"; };
+		72D5155D14601D1A005B1383 /* NBSwipeIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSwipeIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 		72C0B7EB142A3EB300DCA056 /* NBUIElements */ = {
 			isa = PBXGroup;
 			children = (
+				72D5155B14601D1A005B1383 /* Sources */,
 				72C0B7F4142A3EB300DCA056 /* AppDelegate.h */,
 				72C0B7F5142A3EB300DCA056 /* AppDelegate.m */,
 				72C0B7F7142A3EB300DCA056 /* MainStoryboard_iPhone.storyboard */,
@@ -148,6 +152,15 @@
 				72C0B80F142A3EB400DCA056 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72D5155B14601D1A005B1383 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				72D5155C14601D1A005B1383 /* NBSwipeIndicatorView.h */,
+				72D5155D14601D1A005B1383 /* NBSwipeIndicatorView.m */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +273,7 @@
 				72C0B7F2142A3EB300DCA056 /* main.m in Sources */,
 				72C0B7F6142A3EB300DCA056 /* AppDelegate.m in Sources */,
 				72C0B7FF142A3EB300DCA056 /* ViewController.m in Sources */,
+				72D5155E14601D1A005B1383 /* NBSwipeIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +453,7 @@
 				72C0B819142A3EB400DCA056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72C0B81A142A3EB400DCA056 /* Build configuration list for PBXNativeTarget "NBUIElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +462,7 @@
 				72C0B81C142A3EB400DCA056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,8 @@
 
 @implementation ViewController
 
+@synthesize si;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -21,7 +23,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.si.borderColor = [UIColor whiteColor];
 }
 
 - (void)viewDidUnload
