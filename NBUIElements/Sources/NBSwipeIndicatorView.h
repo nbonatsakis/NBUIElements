@@ -12,6 +12,7 @@
 @property CGFloat barWidthPercent;
 @property CGFloat arrowWidthPercent;
 @property CGFloat spaceBetweenArrowsPercent;
+@property CGFloat borderWidth;
 @property (nonatomic, strong) UIColor* fillColor;
 @property (nonatomic, strong) UIColor* borderColor;
 @property int page;

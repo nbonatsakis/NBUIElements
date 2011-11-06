@@ -21,6 +21,7 @@
 @synthesize barWidthPercent;
 @synthesize arrowWidthPercent;
 @synthesize spaceBetweenArrowsPercent;
+@synthesize borderWidth;
 @synthesize fillColor;
 @synthesize borderColor;
 @synthesize page;
@@ -52,20 +53,25 @@
     self.barWidthPercent = kDefaultBarWidth;
     self.spaceBetweenArrowsPercent = kDefaultSpaceBetweenPercent;
     self.fillColor = [UIColor blueColor];
+    self.borderWidth = 1.0f;
 }
 
 - (void) layoutSubviews {
 }
 
 - (void)drawRect:(CGRect)rect {
-//    if (self.page == self.numPages - 1) {
-//        [self drawLeft];
-//    } else if (self.page == 0) {
-//        [self drawRight];
-//    } else {
+    if (self.numPages == 1) {
+        return;
+    }
+    
+    if (self.page == self.numPages - 1) {
+        [self drawLeft];
+    } else if (self.page == 0) {
+        [self drawRight];
+    } else {
         [self drawLeft];
         [self drawRight];
-//    }
+    }
 }
 
 - (void) drawLeft {
@@ -118,8 +124,8 @@
 
 
 - (void) applyColors:(UIBezierPath*)path {
-    if (self.borderColor) {
-        [path setLineWidth:3.0f];
+    if (self.borderColor && self.borderWidth > 0) {
+        [path setLineWidth:self.borderWidth];
         [self.borderColor setStroke];
         [path stroke];
     }
