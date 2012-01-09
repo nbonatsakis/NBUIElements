@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01EF20A714BA7A5B000D35EE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 01EF20A614BA7A5B000D35EE /* LICENSE */; };
+		01EF20AA14BA81C4000D35EE /* README in Resources */ = {isa = PBXBuildFile; fileRef = 01EF20A914BA81C4000D35EE /* README */; };
 		72C0B7E8142A3EB300DCA056 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0B7E7142A3EB300DCA056 /* UIKit.framework */; };
 		72C0B7EA142A3EB300DCA056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0B7E9142A3EB300DCA056 /* Foundation.framework */; };
 		72C0B7F0142A3EB300DCA056 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C0B7EE142A3EB300DCA056 /* InfoPlist.strings */; };
@@ -19,7 +21,6 @@
 		72C0B808142A3EB400DCA056 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0B7E7142A3EB300DCA056 /* UIKit.framework */; };
 		72C0B809142A3EB400DCA056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0B7E9142A3EB300DCA056 /* Foundation.framework */; };
 		72C0B811142A3EB400DCA056 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C0B80F142A3EB400DCA056 /* InfoPlist.strings */; };
-		72C0B814142A3EB400DCA056 /* NBUIElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C0B813142A3EB400DCA056 /* NBUIElementsTests.m */; };
 		72D5155E14601D1A005B1383 /* NBSwipeIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D5155D14601D1A005B1383 /* NBSwipeIndicatorView.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EF20A614BA7A5B000D35EE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		01EF20A914BA81C4000D35EE /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		72C0B7E3142A3EB300DCA056 /* NBUIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBUIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C0B7E7142A3EB300DCA056 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72C0B7E9142A3EB300DCA056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,8 +54,6 @@
 		72C0B806142A3EB400DCA056 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		72C0B80E142A3EB400DCA056 /* NBUIElementsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBUIElementsTests-Info.plist"; sourceTree = "<group>"; };
 		72C0B810142A3EB400DCA056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72C0B812142A3EB400DCA056 /* NBUIElementsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBUIElementsTests.h; sourceTree = "<group>"; };
-		72C0B813142A3EB400DCA056 /* NBUIElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBUIElementsTests.m; sourceTree = "<group>"; };
 		72D5155C14601D1A005B1383 /* NBSwipeIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSwipeIndicatorView.h; sourceTree = "<group>"; };
 		72D5155D14601D1A005B1383 /* NBSwipeIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSwipeIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +84,8 @@
 		72C0B7D8142A3EB300DCA056 = {
 			isa = PBXGroup;
 			children = (
+				01EF20A914BA81C4000D35EE /* README */,
+				01EF20A614BA7A5B000D35EE /* LICENSE */,
 				72C0B7EB142A3EB300DCA056 /* NBUIElements */,
 				72C0B80C142A3EB400DCA056 /* NBUIElementsTests */,
 				72C0B7E6142A3EB300DCA056 /* Frameworks */,
@@ -138,8 +141,6 @@
 		72C0B80C142A3EB400DCA056 /* NBUIElementsTests */ = {
 			isa = PBXGroup;
 			children = (
-				72C0B812142A3EB400DCA056 /* NBUIElementsTests.h */,
-				72C0B813142A3EB400DCA056 /* NBUIElementsTests.m */,
 				72C0B80D142A3EB400DCA056 /* Supporting Files */,
 			);
 			path = NBUIElementsTests;
@@ -236,6 +237,8 @@
 				72C0B7F0142A3EB300DCA056 /* InfoPlist.strings in Resources */,
 				72C0B7F9142A3EB300DCA056 /* MainStoryboard_iPhone.storyboard in Resources */,
 				72C0B7FC142A3EB300DCA056 /* MainStoryboard_iPad.storyboard in Resources */,
+				01EF20A714BA7A5B000D35EE /* LICENSE in Resources */,
+				01EF20AA14BA81C4000D35EE /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C0B814142A3EB400DCA056 /* NBUIElementsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

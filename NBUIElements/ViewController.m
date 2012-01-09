@@ -1,16 +1,16 @@
 //
-//  ViewController.m
+//  ViewController.h
 //  NBUIElements
 //
-//  Created by nbonatsakis on 9/21/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Created by Nick Bonatsakis.
+//  Copyright 2011 Atlantia Software LLC. All rights reserved.
 //
 
 #import "ViewController.h"
 
 @implementation ViewController
 
-@synthesize si;
+@synthesize swipeIndicator;
 
 - (void)didReceiveMemoryWarning
 {
@@ -24,7 +24,19 @@
 {
     [super viewDidLoad];
 
-    self.si.borderColor = [UIColor whiteColor];
+    // set up pages
+    self.swipeIndicator.numPages = 3;
+    self.swipeIndicator.page = 0;
+    
+    // set up colors
+    self.swipeIndicator.borderColor = [UIColor whiteColor];
+    self.swipeIndicator.fillColor = [UIColor blueColor];
+    
+    // set up proportions
+    self.swipeIndicator.barWidthPercent = 0.5f;
+    self.swipeIndicator.arrowWidthPercent = 0.2f;
+    
+    [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(cyclePage) userInfo:nil repeats:YES];
 }
 
 - (void)viewDidUnload
@@ -61,6 +73,16 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
+    }
+}
+
+#pragma mark Cycle Modes
+
+- (void) cyclePage {
+    if (self.swipeIndicator.page == 3) {
+        self.swipeIndicator.page = 0;
+    } else {
+        self.swipeIndicator.page++;
     }
 }
 

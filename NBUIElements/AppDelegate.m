@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  NBUIElements
 //
-//  Created by nbonatsakis on 9/21/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Created by Nick Bonatsakis.
+//  Copyright 2011 Atlantia Software LLC. All rights reserved.
 //
 
 #import "AppDelegate.h"
